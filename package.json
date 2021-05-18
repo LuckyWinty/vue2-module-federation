@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @vue2-demo/* --parallel start",
+    "build": "lerna run --scope @vue2-demo/* build",
+    "serve": "lerna run --scope @vue2-demo/* --parallel serve",
+    "clean": "lerna run --scope @vue2-demo/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "./*"
+    ],
+    "nohoist": [
+      "**/svelte",
+      "**/svelte/**",
+      "**/svelte-loader",
+      "**/svelte-loader/**"
+    ]
+  }
+}

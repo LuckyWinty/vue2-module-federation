@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   scope: 'vue2-demo/*',
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/zhihuilai/project/vue2-module-federation/node_modules/.bin/lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/zhihuilai/project/vue2-module-federation
+3 error Error: Invalid package name "vue2-demo/home": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/zhihuilai/project/vue2-module-federation/node_modules/npm-package-arg/npa.js:86:15)
+3 error     at Result.setName (/Users/zhihuilai/project/vue2-module-federation/node_modules/npm-package-arg/npa.js:121:11)
+3 error     at new Result (/Users/zhihuilai/project/vue2-module-federation/node_modules/npm-package-arg/npa.js:111:23)
+3 error     at Function.resolve (/Users/zhihuilai/project/vue2-module-federation/node_modules/npm-package-arg/npa.js:58:15)
+3 error     at new Package (/Users/zhihuilai/project/vue2-module-federation/node_modules/@lerna/package/index.js:36:26)

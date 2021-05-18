@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://@vue2-demo/home/./src/utils.js"],"names":[],"mappings":";;;;;;;;;;AAAO;AACP;AACA,C","file":"555.js","sourcesContent":["export const sayHi = () => {\n  alert('hi from remote alert');\n}"],"sourceRoot":""}
